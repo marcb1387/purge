@@ -1,7 +1,12 @@
 import discord
 import logging
+import configparser
 
-channel_id = open("config.txt", "r")
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+BOT_TOKEN=config.get('CONFIG', 'BOT_TOKEN')
+channel_id = open("channel_ids.txt", "r")
 
 logging.basicConfig(level=logging.INFO)
 client = discord.Client()
