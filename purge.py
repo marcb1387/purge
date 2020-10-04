@@ -27,5 +27,5 @@ async def on_ready():
     await client.logout()
     exit("Done!")
 
-client.run("BOT TOKEN")
+client.run(BOT_TOKEN)
 channel_id.close()
