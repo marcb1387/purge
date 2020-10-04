@@ -10,4 +10,6 @@ Place all channel ID's you want to clear into the channel_ids.txt file. 1 channe
 
 edit script with Bot Token once you have created the bot then run with cron when you want to clear a channel or manually `python3 purge.py`
 
+Requirment:  pip install discord.py https://pypi.org/project/discord.py/
+
 Credit to Malte for the original. 
