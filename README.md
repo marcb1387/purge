@@ -1,4 +1,4 @@
-# purge
+# Dr.Purge
 Bot to purge all text from discord channel 
 
 Read here on how to create a Discord bot https://discordpy.readthedocs.io/en/latest/discord.html
